@@ -1,0 +1,68 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.layer{
+  padding:10px;
+  margin:0 auto;
+}
+.fllower{
+  width:100px;
+  height:120px;
+  border:1px solid #EFEFEF;
+  border-radius:5px;
+  cursor:pointer;
+  float:left;
+  margin-right:10px;
+}
+.description{
+  float:left;
+  font-size: 16px;
+  width:180px;
+}
+.context{
+  font-size: 12px;
+  padding-left:10px;
+  margin-top:30px;
+  line-height: 20px;
+  text-indent: 24px;
+}
+.siwtchview{
+  font-size:14px;
+  border-top:1px solid #999999;
+  margin-top:10px;
+  padding:5px 0px;
+}
+.open-switch{
+  height: 20px;
+  width:100px;
+}
+.input-view{
+  font-size:14px;
+  margin-top:10px;
+  border-top:1px solid #999999;
+  padding-top:10px;
+}
+.btn-upload{
+  margin-left:10px;
+}
+.btn-info{
+  margin-left:10px;
+}

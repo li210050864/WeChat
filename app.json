@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#666666",
+    "navigationBarTitleText": "商户详情",
+    "navigationBarTextStyle":"#FFFF00"
+  },
+  "tabBar":{
+    "color":"#000000",
+    "selectedColor":"#666666",
+    "backgroundColor":"#EFEFEF",
+    "borderStyle":"black",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页"
+      },
+      {
+        "pagePath":"pages/logs/logs",
+        "text":"日志"
+      }
+    ],
+    "position":"bottom"
+  }
+}

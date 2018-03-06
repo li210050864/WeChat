@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<!--<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>-->
+<view class="layer">
+  <image src="{{src}}" class="fllower"></image>
+  <view class='description'>
+    韩帅
+  </view>
+  <view class='context'>
+    韩帅，出生于陕西省西安市，毕业于天津音乐学院表演系，中国内地男演员。
+2012年，因出演近代战争《零号刺杀》正式进去影视圈。2013年，主演王禹执导的喜剧动作片《终极兵王》[1]  ；2015年，主演罗泮执导的文艺片《Teach》，片中饰演男一号李涛；2016年，主演王勇执导的古装悬疑剧《热血长安》；同年在李三林执导的近代传奇剧《布衣天下》中饰演男二号苏墨白[2]  ；2017年，主演高先明执导的古装神话剧《哪咤降妖记》；随后在陆诗雷执导的古装片《大破天门阵》中饰演男一号杨宗保。
+  </view>
+  <view class='siwtchview'>
+    是否开启推送信息 <switch class="open-switch" checked bindchange='switch1Change' type="switch"></switch>
+  </view>
+  <view class='input-view'>
+    <text>上传头像</text>
+    <button class="btn-upload" size='mini' type='primary'>上传</button>
+    <button class='btn-info' size='mini' type='warn' bindgetuserinfo="getInfo" open-type='getUserInfo'>获取用户信息</button>
+  </view>
+</view>
